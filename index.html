@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="vid143.css">
+    
+
+</head>
+<body>
+
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+
+    <nav id="menu" class="hidden">
+    <ul class="nav-upper flex-space-around">
+        <li class="nav-list">
+            <a href="vid143.html"
+            class="nav-link">Home</a>
+        </li>
+        <li class="nav-list">
+            <a href="register.html"
+            class="nav-link">Register</a>
+        </li>
+        <li class="nav-list">
+            <a href="login.html"
+            class="nav-link">Login</a>
+        </li>
+        <li class="nav-list">
+            <a href="vid143.html"
+            class="nav-link">logout</a>
+        </li>
+        <li class="nav-list">
+            <a href="contact.html"
+            class="nav-link">Contact</a>
+        </li>
+        <li class="nav-list">
+            <a href="profile.html"
+            class="nav-link"><img class="profile-icon" src="https://i.postimg.cc/8PPYq1FP/muzahid.jpg" alt="profile-icon"></a>
+        </li>
+    </ul>
+    <ul class="nav-lower flex-space-around">
+        <li class="nav-list">
+            <a href="vid143.html" class="nav-brand nav-link">Muzahid Express</a>
+        </li>
+        <li class="nav-list">
+            <a href="cart.html" class="nav-link">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                Cart 2 products - $124.40
+            </a>
+        </li>
+    </ul>
+    </nav>
+    <!-- navbar starts end -->
+
+    <!-- header starts here -->
+    <header class="header">
+        <div class="banner flex-space-around">
+            <marquee class="banner-title" behavior="" direction="">50% Sales going on</marquee>
+        
+        <div class="features flex-space-around">
+            <article class="feature flex-center">
+                <i class="fa-solid fa-truck features-icon"></i>
+                <h3>Shipping width 7 days</h3>
+            </article>
+            <article class="feature flex-center">
+                <i class="fa-brands fa-rocketchat features-icon"></i>
+                <h3>Support 24/7</h3>
+            </article>
+            <article class="feature flex-center">
+                <i class="fa-solid fa-credit-card features-icon"></i>
+                <h3>Save payment</h3>
+            </article>
+        </div>
+        </div>
+    </header>
+
+
+    <!-- header ends here -->
+
+    <main class="flex-center">
+      <div class="sidebar">
+        <section class="categories-section">
+           <h3 class="section-title">Catagories</h3>
+           <ul class="list" type="none">
+            <li class="list-item">
+                <label for="phone">
+                    <input type="checkbox" name="phone" id="phone" value="phone"/>
+                    phone
+                </label>
+            </li>
+            <li class="list-item">
+                <label for="tablets">
+                    <input type="checkbox" name="tablets" id="tablets" value="tablets">
+                    Tablets
+                </label>
+            </li>
+            <li class="list-item">
+                <label for="television">
+                    <input type="checkbox" name="television" id="television" value="television">
+                    Television
+                </label>
+            </li>
+            <li class="list-item">
+                <label for="computers">
+                    <input type="checkbox" name="computers" id="computers" value="computers">
+                    Computers
+                </label>
+            </li>
+            <li class="list-item">
+                <label for="headphones">
+                    <input type="checkbox" name="headphones" id="headphones" value="headphones">
+                    Headphones
+                </label>
+            </li>
+           </ul>
+        </section>
+
+        <section class="price-section">
+            <h3 class="section-title">Price Range</h3>
+            <ul class="list" type="none">
+             <li class="list-item">
+                 <label for="price1">
+                     <input type="radio" name="price1" id="price1" value="[0,20]"/>
+                     $0-20
+                 </label>
+             </li>
+             <li class="list-item">
+                <label for="price2">
+                    <input type="radio" name="price2" id="price2" value="[21,50]"/>
+                    $21-50
+                </label>
+            </li>
+            <li class="list-item">
+                <label for="price3">
+                    <input type="radio" name="price3" id="price3" value="[51,100]"/>
+                    $51-100
+                </label>
+            </li>
+             <li class="list-item">
+                 <label for="price4">
+                     <input type="radio" name="price4" id="price4" value="[101,130]">
+                     $101-130
+                 </label>
+             </li>
+             <li class="list-item">
+                <label for="price5">
+                    <input type="radio" name="price5" id="price5" value="[131+]">
+                    $131+
+                </label>
+            </li>
+            </ul>
+         </section>
+
+         <section class="Shipping-section">
+            <h3 class="section-title">Shipping Option</h3>
+            <ul class="list" type="none">
+                  
+             <li class="list-item">
+                 <label for="free">
+                     <input type="radio" name="shipping" id="free" value="free">
+                     Free
+                 </label>
+                 <li class="list-item">
+                    <label for="paid">
+                        <input type="radio" name="shipping" id="paid" value="paid">
+                        Paid
+                    </label>
+                </li>
+            </ul>
+         </section>     
+      </div>
+
+      <div class="main-content">
+        <section class="actions flex-space-around">
+            <div class="actions-sort">
+                <label for="sort">Sort By:</label>
+                <select name="sort" id="sort">
+                    <option value="sold">Most sold first</option>
+                    <option value="rating">Most rated first</option>
+                    <option value="price">Cheapest first</option>
+                    <option value="discount">Biggest discount first</option>
+                </select>
+            </div>
+            <div class="actions-search">
+                <input type="text" placeholder="Search product">
+                <button class="btn">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- product section starts here -->
+        <section class="products">
+            <article class="product card">
+                <div class="badge">
+                    <span>5 in stock</span>
+                    <hr class="hr-design">
+                    <span>3 sold</span>
+                </div>
+                <img id="product-img" class="product-img" src="https://i.postimg.cc/W31qL5JK/hdd.jpg" alt="product1">
+                <div class="product-body">
+                    <h3 class="product-name">Sony v4 Headphone</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iusto itaque repellendus quasi pariatur, eius dolores deleniti nihil beatae recusandae? ... <a href="product.html" class="learn-more">Learn More</a>
+                </p>
+                <h4 class="product-price">$225.99</h4>
+                <p class="product-rating">Rating:4.4/5</p>
+                <button class="btn product-button">Add to card</button>
+                </div>
+            </article>
+
+            <article class="product card">
+                <div class="badge">
+                    <span>2 in stock</span>
+                    <hr class="hr-design">
+                    <span>9 sold</span>
+                </div>
+                <img id="product-img" class="product-img" src="file:///C:/Users/user/Desktop/img/ww.jpg" alt="product2">
+                <div class="product-body">
+                    <h3 class="product-name">Apple smart watch</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iusto itaque repellendus quasi pariatur, eius dolores deleniti nihil beatae recusandae? ... <a href="product.html" class="learn-more">Learn More</a>
+                </p>
+                <h4 class="product-price">$425.99</h4>
+                <p class="product-rating">Rating:4.5/5</p>
+                <button class="btn product-button">Add to card</button>
+                </div>
+            </article>
+
+            <article class="product card">
+                <div class="badge">
+                    <span>3 in stock</span>
+                    <hr class="hr-design">
+                    <span>7 sold</span>
+                </div>
+                <img id="product-img" class="product-img" src="https://i.postimg.cc/TP5JfK3M/sss.png" alt="product3">
+                <div class="product-body">
+                    <h3 class="product-name">Nike shoes</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iusto itaque repellendus quasi pariatur, eius dolores deleniti nihil beatae recusandae? ... <a href="product.html" class="learn-more">Learn More</a>
+                </p>
+                <h4 class="product-price">$325.99</h4>
+                <p class="product-rating">Rating:3.5/5</p>
+                <button class="btn product-button">Add to card</button>
+                </div>
+            </article>
+
+            <article class="product card">
+                <div class="badge">
+                    <span>5 in stock</span>
+                    <hr class="hr-design">
+                    <span>3 sold</span>
+                </div>
+                <img id="product-img" class="product-img" src="https://i.postimg.cc/W31qL5JK/hdd.jpg" alt="product1">
+                <div class="product-body">
+                    <h3 class="product-name">Sony v4 Headphone</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iusto itaque repellendus quasi pariatur, eius dolores deleniti nihil beatae recusandae? ... <a href="product.html" class="learn-more">Learn More</a>
+                </p>
+                <h4 class="product-price">$225.99</h4>
+                <p class="product-rating">Rating:4.4/5</p>
+                <button class="btn product-button">Add to card</button>
+                </div>
+            </article>
+
+            <article class="product card">
+                <div class="badge">
+                    <span>2 in stock</span>
+                    <hr class="hr-design">
+                    <span>9 sold</span>
+                </div>
+                <img id="product-img" class="product-img" src="file:///C:/Users/user/Desktop/img/ww.jpg" alt="product2">
+                <div class="product-body">
+                    <h3 class="product-name">Apple smart watch</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iusto itaque repellendus quasi pariatur, eius dolores deleniti nihil beatae recusandae? ... <a href="product.html" class="learn-more">Learn More</a>
+                </p>
+                <h4 class="product-price">$425.99</h4>
+                <p class="product-rating">Rating:4.5/5</p>
+                <button class="btn product-button">Add to card</button>
+                </div>
+            </article>
+
+            <article class="product card">
+                <div class="badge">
+                    <span>3 in stock</span>
+                    <hr class="hr-design">
+                    <span>7 sold</span>
+                </div>
+                <img id="product-img" class="product-img" src="https://i.postimg.cc/TP5JfK3M/sss.png" alt="product3">
+                <div class="product-body">
+                    <h3 class="product-name">Nike shoes</h3>
+                <p>
+                    <span class="dot green"></span>
+                    <span class="dot black"></span>
+                    <span class="dot red"></span>
+                </p>
+                <p class="product-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid iusto itaque repellendus quasi pariatur, eius dolores deleniti nihil beatae recusandae? ... <a href="product.html" class="learn-more">Learn More</a>
+                </p>
+                <h4 class="product-price">$325.99</h4>
+                <p class="product-rating">Rating:3.5/5</p>
+                <button class="btn product-button">Add to card</button>
+                </div>
+            </article>
+        </section>
+        <div class="pagination">
+            <button class="btn pagination-btn"><i class="fa-solid fa-less-than"></i></button>
+            <button class="btn pagination-btn">1</button>
+            <button class="btn pagination-btn">2</button>
+            <button class="btn pagination-btn">3</button>
+            <button class="btn pagination-btn">4</button>
+            <button class="btn pagination-btn">5</button>
+            <button class="btn pagination-btn">6</button>
+            <button class="btn pagination-btn">7</button>
+            <button class="btn pagination-btn">8</button>
+            <button class="btn pagination-btn">9</button>
+            <button class="btn pagination-btn">10</button>
+            <button class="btn pagination-btn"> <i class="fa-solid fa-greater-than"></i></button>
+
+        </div>
+        <!-- product section ends here -->
+
+      </div>
+    </main>
+
+    <!-- footer starts here -->
+    <footer class="footer">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter: </label>
+            <input type="email" id="subscribe" name="subscribe" class="footer_input"
+            placeholder="Your Email Address"/>
+            <button class="btn btn-subscribe">subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Muzahid Express. All rights reserved</p>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+
+    <script src="vid143.js"></script>
+</body>
+</html>
